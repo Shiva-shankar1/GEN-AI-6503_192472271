@@ -1,0 +1,9 @@
+import pandas as pd
+
+data = {
+    "Name": ["Siva", "Ravi", "Kiran"],
+    "Grade": ["A", "B", "A"]
+}
+
+df = pd.DataFrame(data)
+print(df)
