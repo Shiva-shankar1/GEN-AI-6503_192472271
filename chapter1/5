@@ -1,0 +1,8 @@
+import numpy, pandas, matplotlib, sklearn, torch, transformers
+
+print("NumPy:", numpy.__version__)
+print("Pandas:", pandas.__version__)
+print("Matplotlib:", matplotlib.__version__)
+print("Sklearn:", sklearn.__version__)
+print("Torch:", torch.__version__)
+print("Transformers:", transformers.__version__)

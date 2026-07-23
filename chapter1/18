@@ -1,0 +1,14 @@
+from transformers import BertTokenizer, BertModel
+import torch
+
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+model = BertModel.from_pretrained('bert-base-uncased')
+
+s1 = tokenizer("AI is amazing", return_tensors="pt")
+s2 = tokenizer("Artificial Intelligence is amazing", return_tensors="pt")
+
+e1 = model(**s1).last_hidden_state.mean(dim=1)
+e2 = model(**s2).last_hidden_state.mean(dim=1)
+
+similarity = torch.cosine_similarity(e1, e2)
+print("Similarity:", similarity.item())
