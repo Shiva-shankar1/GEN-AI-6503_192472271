@@ -1,0 +1,8 @@
+import pandas as pd
+
+df = pd.DataFrame({
+    "Name":["Ram","Sam","John"],
+    "Marks":[80,90,85]
+})
+
+print(df)
