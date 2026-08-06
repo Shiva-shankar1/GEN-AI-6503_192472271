@@ -1,6 +1,0 @@
-import numpy as np
-
-arr = np.array([10, 5, 20, 8])
-
-print("Max:", np.max(arr))
-print("Min:", np.min(arr))
