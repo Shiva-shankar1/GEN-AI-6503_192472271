@@ -1,7 +1,0 @@
-from transformers import pipeline
-generator = pipeline("text-generation", model="gpt2")
-prompts = ["AI will", "Robots can", "Future technology"]
-for p in prompts:
-    print("\nPrompt:", p)
-    result = generator(p, max_length=30, num_return_sequences=1)
-    print(result[0]["generated_text"])
