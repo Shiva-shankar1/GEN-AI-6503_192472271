@@ -1,0 +1,13 @@
+from transformers import pipeline
+
+generator = pipeline("text-generation", model="gpt2")
+
+prompts = [
+    "AI will",
+    "Robots can",
+    "Machine learning helps"
+]
+
+for p in prompts:
+    print("\nPrompt:", p)
+    print(generator(p, max_length=30))

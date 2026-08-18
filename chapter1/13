@@ -1,0 +1,4 @@
+from transformers import pipeline
+
+gen = pipeline("text-generation", model="gpt2")
+print(gen("Deep learning is", max_length=30))

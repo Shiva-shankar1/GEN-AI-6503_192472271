@@ -1,0 +1,8 @@
+from transformers import pipeline
+
+qa = pipeline("question-answering")
+
+context = "AI stands for Artificial Intelligence."
+question = "What does AI stand for?"
+
+print(qa(question=question, context=context))

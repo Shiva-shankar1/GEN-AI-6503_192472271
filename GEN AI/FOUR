@@ -1,0 +1,8 @@
+import pandas as pd
+
+df = pd.DataFrame({
+    "Name":["Ram","Sam","John"],
+    "Marks":[40,75,90]
+})
+
+print(df[df["Marks"]>50])
