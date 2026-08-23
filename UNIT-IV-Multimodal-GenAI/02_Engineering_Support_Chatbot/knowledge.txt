@@ -1,0 +1,38 @@
+Ohm's Law:
+Ohm's Law states that the current flowing through a conductor is directly proportional to the voltage applied across it, provided the temperature remains constant. The formula is V = IR, where V is voltage, I is current, and R is resistance.
+
+Transformer:
+A transformer is an electrical device that transfers electrical energy from one circuit to another through electromagnetic induction. It can increase or decrease AC voltage.
+
+Microcontroller:
+A microcontroller is a compact integrated circuit containing a processor, memory, and input/output peripherals. It is commonly used in embedded systems and control applications.
+
+Artificial Intelligence:
+Artificial Intelligence is a branch of computer science that enables machines to perform tasks that normally require human intelligence, such as learning, reasoning, perception, and decision making.
+
+Machine Learning:
+Machine Learning is a subset of Artificial Intelligence in which computers learn patterns from data and use those patterns to make predictions or decisions.
+
+PID Controller:
+A PID controller is a feedback control mechanism consisting of Proportional, Integral, and Derivative terms. It is widely used for controlling temperature, speed, position, and other processes.
+
+TCP/IP:
+TCP/IP is a set of communication protocols used for communication over computer networks and the Internet. TCP provides reliable data transmission while IP is responsible for addressing and routing.
+
+Database:
+A database is an organized collection of data that can be stored, managed, and retrieved efficiently.
+
+Normalization:
+Database normalization is the process of organizing data in a database to reduce redundancy and improve data integrity.
+
+Inheritance in Java:
+Inheritance is an object-oriented programming mechanism in Java where one class acquires properties and methods from another class. It promotes code reuse and supports hierarchical relationships.
+
+Computer Network:
+A computer network is a collection of interconnected computers and devices that communicate and share resources.
+
+Cloud Computing:
+Cloud computing provides computing resources such as servers, storage, databases, and software through the Internet.
+
+Internet of Things:
+The Internet of Things, or IoT, is a technology in which physical devices are connected to the Internet and can collect and exchange data using sensors and communication technologies.
